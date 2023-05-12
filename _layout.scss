@@ -1,0 +1,912 @@
+header div.logo{
+    img{
+        width: 120px !important;
+    }
+}
+header{
+    box-shadow: 0 1px 5px ;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+header nav li#main-page{
+    border-bottom: 2px solid $color-primary;
+}
+nav{
+    ul.navbar-nav{
+       li.nav-item{
+        padding: 10px 5px;
+        margin-left: 10px;
+        border-radius: 5px;
+        transition: 500ms;
+        &:hover{
+            background-image: linear-gradient(to right,$color-secondary,$color-primary);
+        }
+        &:hover a.nav-link{
+            color: white !important;
+        }
+       } 
+    }
+}
+div.carousel{
+    h5{
+        box-shadow: -2px 2px 5px -2px;
+    }
+}
+div.carousel{
+    img{
+        filter: brightness(50%);
+    }
+}
+div.search-filter{
+    background-color: white;
+    button{
+        background-image: linear-gradient(to right, $color-secondary,$color-primary);
+        color: white;
+        border: 0ch;
+        &:hover{
+            background-image: linear-gradient(white,white) !important;
+            color: $color-primary !important;
+        }
+    }
+}
+div.search-filter{
+    box-shadow: 0 0 20px -8px;
+}
+div.top-brands{
+    h4{
+        padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 10px 7px -10px;
+            margin-bottom: 10px;
+    }
+    div.brands{
+        width: 80%;
+        position: relative;
+        right: 50%;
+        transform: translateX(50%) !important;
+        div.brands-img{
+            width: 17%;
+            box-shadow: 0 0 20px -7px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+// icons
+@media screen and (min-width:320px)  {
+    div.icons{
+        width: 80%;
+        position: relative;
+        right: 50%;
+        transform: translateX(50%);
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        div.icons-img{
+            border: 1px solid $color-primary;
+            border-radius: 5px;
+            width: 22%;
+            padding: 5px 0;
+            text-align: center;
+            i{
+                font-size: 20px;
+            }
+            p{
+                padding: 10px;
+                width: 100%;
+                background-color: $color-primary;
+                color: white;
+                font-size: 8px;
+                margin: 0;
+            }
+        }
+    }
+    div.badminton-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 60%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 10px;
+        }
+        div.badminton-products-row{
+            background-image: linear-gradient(to right,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.badminton-card{
+                width: 47% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.squash-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 60%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.squash-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-top: 0;
+            div.squash-card{
+                width: 47% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.tennis-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 60%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 10px;
+        }
+        div.tennis-products-row{
+            background-image: linear-gradient(to left,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.tennis-card{
+                width: 47% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.clothes-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 60%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.clothes-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-top: 0;
+            div.clothes-card{
+                width: 47% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:576px)  {
+    div.icons{
+        width: 80%;
+        position: relative;
+        right: 50%;
+        transform: translateX(50%);
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        div.icons-img{
+            border: 1px solid $color-primary;
+            border-radius: 5px;
+            width: 22%;
+            padding: 5px 0;
+            text-align: center;
+            i{
+                font-size: 30px;
+            }
+            p{
+                padding: 10px;
+                width: 100%;
+                background-color: $color-primary;
+                color: white;
+                font-size: 12px;
+                margin: 0;
+            }
+        }
+    }
+    div.badminton-products{
+        width: 100% !important;
+        overflow:hidden ;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 50%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 10px;
+        }
+        div.badminton-products-row{
+            background-image: linear-gradient(to right,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.badminton-card{
+                width: 30% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.squash-products{
+        width: 100% !important;
+        overflow:hidden ;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 50%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.squash-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-top: 0;
+            div.squash-card{
+                width: 30% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.tennis-products{
+        width: 100% !important;
+        overflow:hidden ;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 50%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 10px;
+        }
+        div.tennis-products-row{
+            background-image: linear-gradient(to left,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.tennis-card{
+                width: 30% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.clothes-products{
+        width: 100% !important;
+        overflow:hidden ;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 50%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.clothes-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-top: 0;
+            div.clothes-card{
+                width: 30% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:999px)  {
+    div.icons{
+        width: 80%;
+        position: relative;
+        right: 50%;
+        transform: translateX(50%);
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        div.icons-img{
+            border: 1px solid $color-primary;
+            border-radius: 5px;
+            width: 22%;
+            padding: 5px 0;
+            text-align: center;
+            transition: 500ms;
+            &:hover{
+                transform: scale(1.1);
+            }
+            i{
+                font-size: 40px;
+            }
+            p{
+                padding: 10px;
+                width: 100%;
+                background-color: $color-primary;
+                color: white;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+    }
+    div.badminton-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 10px;
+        }
+        div.badminton-products-row{
+            background-image: linear-gradient(to right,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.badminton-card{
+                width: 22% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 14px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.squash-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.squash-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-top: 0;
+            div.squash-card{
+                width: 22% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 14px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.tennis-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 10px;
+        }
+        div.tennis-products-row{
+            background-image: linear-gradient(to left,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.tennis-card{
+                width: 22% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 14px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+    div.clothes-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.clothes-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-bottom: 0;
+            div.clothes-card{
+                width: 22% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 14px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1200px)  {
+    div.icons{
+        width: 80%;
+        position: relative;
+        right: 50%;
+        transform: translateX(50%);
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: white;
+        div.icons-img{
+            border: 1px solid $color-primary;
+            border-radius: 5px;
+            width: 22%;
+            padding: 5px 0;
+            text-align: center;
+            transition: 500ms;
+            &:hover{
+                transform: scale(1.1);
+            }
+            i{
+                font-size: 60px;
+                margin-top: 10px;
+                color: $color-primary;
+            }
+            p{
+                padding: 10px;
+                width: 100%;
+                background-color: $color-primary;
+                color: white;
+                font-size: 16px;
+                margin: 10px 0;
+            }
+        }
+    }
+    div.badminton-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 10px;
+        }
+        div.badminton-products-row{
+            background-image: linear-gradient(to right top,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.badminton-card{
+                width: 17% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                &:hover{
+                    transform: scale(1.02);
+                }
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 16px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary !important;
+                }
+            }
+        }
+    }
+    div.squash-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.squash-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-top: 0;
+            div.squash-card{
+                width: 17% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                &:hover{
+                    transform: scale(1.02);
+                }
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 16px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary !important;
+                }
+            }
+        }
+    }
+    div.tennis-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 30px;
+        }
+        div.tennis-products-row{
+            background-image: linear-gradient(to left top,$color-secondary,$color-primary);
+            padding: 40px;
+            margin-top: 0;
+            div.tennis-card{
+                width: 17% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                &:hover{
+                    transform: scale(1.02);
+                }
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 16px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary !important;
+                }
+            }
+        }
+    }
+    div.clothes-products{
+        width: 100% !important;
+        overflow: hidden;
+        h4.title{
+            padding: 10px 30px;
+            background-color: white;
+            color: black;
+            width: 30%;
+            box-shadow: 10px 0 20px -5px;
+            margin-bottom: 0;
+        }
+        div.clothes-products-row{
+            background-color: white;
+            padding: 40px;
+            margin-top: 0;
+            div.clothes-card{
+                width: 17% !important;
+                border: 1px solid darkgray;
+                padding: 20px;
+                box-shadow: 0 0 20px -4px;
+                transition: 500ms;
+                background-color: white;
+                margin-top: 10px;
+                &:hover{
+                    transform: scale(1.02);
+                }
+                img{
+                    width: 100%;
+                }
+                h5{
+                    height: 80px;
+                    overflow: hidden;
+                    font-size: 16px;
+                }
+                button{
+                    background-color: $color-primary;
+                    color: white;
+                }
+                button#details{
+                    background-color:white;
+                    color:$color-primary;
+                    border: 1px solid $color-primary !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+$color-primary: #094375;
+$color-secondary: #008f9c;
+@font-face {
+    font-family: yekan;
+    src: url(font/BYekan.woff2);
+}
+body{
+    font-family: yekan;
+}
+a{
+    text-decoration: none;
+    color: inherit !important;
+}
+section{
+    button.kharid{
+        &:hover{
+            background-image: linear-gradient(to right,$color-secondary,$color-primary);
+        }
+    }
+    button.moshahede{
+        padding: 10px;
+        color: $color-primary;
+        border-radius: 5px;
+        color: $color-primary;
+        border: none;
+        box-shadow: -2px 2px 10px -5px;
+        border-right: 5px solid $color-primary;
+        &:hover{
+            background-image: linear-gradient(to right, $color-secondary,$color-primary);
+        }
+    }
+    h4{
+        opacity: 70%;
+    }
+}
+div.bottom-footer{
+    background-image: linear-gradient(to right,$color-secondary,$color-primary);
+    text-align: center;
+    p{
+        font-size: 12px !important;
+        margin-bottom: 0;
+    }
+}

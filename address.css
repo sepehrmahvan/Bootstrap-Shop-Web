@@ -1,0 +1,83 @@
+@font-face {
+  font-family: yekan;
+  src: url(font/BYekan.woff2);
+}
+body {
+  font-family: yekan;
+}
+
+a {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+header div.logo img {
+  width: 120px !important;
+}
+
+header {
+  box-shadow: 0 1px 5px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+header nav li#address {
+  border-bottom: 2px solid #094375;
+}
+
+nav ul.navbar-nav li.nav-item {
+  padding: 10px 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  transition: 500ms;
+}
+nav ul.navbar-nav li.nav-item:hover {
+  background-image: linear-gradient(to right, #008f9c, #094375);
+}
+nav ul.navbar-nav li.nav-item:hover a.nav-link {
+  color: white !important;
+}
+
+section {
+  margin-top: 130px !important;
+}
+section h2 {
+  position: relative;
+  right: 50%;
+  transform: translateX(50%);
+  margin: 0;
+  box-shadow: 0 0 10px -2px !important;
+  margin-bottom: 50px;
+  color: #094375 !important;
+}
+section div.address {
+  width: 100%;
+}
+section div.address iframe {
+  width: 70%;
+  height: 350px;
+  box-shadow: 0 0 20px 2px;
+}
+section div.address p {
+  margin: 40px 0;
+  background-image: linear-gradient(to right, #008f9c, #094375) !important;
+  width: 50%;
+  position: relative;
+  right: 50%;
+  transform: translateX(50%);
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+div.bottom-footer {
+  background-image: linear-gradient(to right, #008f9c, #094375);
+  text-align: center;
+}
+div.bottom-footer p {
+  font-size: 12px !important;
+  margin-bottom: 0;
+}/*# sourceMappingURL=address.css.map */
